@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Sun Dec  4 12:08:04 2016
-
+this is to plot the hashtag world cloud
 @author: angli
 """
 
@@ -11,9 +11,6 @@ import os
 import pandas as pd
 import matplotlib.pyplot as plt
 from wordcloud import WordCloud
-
-os.chdir("/Users/angli/ANG/OneDrive/Documents/Pitt_PhD/Class/Fall2016/SocialComputing/FinalProject/all_net")
-os.chdir("/Users/ANG/OneDrive/Documents/Pitt_PhD/Class/Fall2016/SocialComputing/FinalProject/all_net")
 
 #hillary side mentioned hillary
 hillary_alltweets=pd.read_csv("hillary_alltweets.csv")
@@ -62,7 +59,7 @@ twitter_mask = imread('./twitter_mask.png', flatten=True)
 
 
 wordcloud = WordCloud(
-                      font_path='/Users/angli/ANG/OneDrive/Documents/Pitt_PhD/Class/Fall2016/SocialComputing/FinalProject/all_net/cabin-sketch-v1.02/CabinSketch-Bold.ttf',
+                      font_path='~/cabin-sketch-v1.02/CabinSketch-Bold.ttf',
                       background_color='white',
                       width=1800,
                       height=1400,
@@ -133,7 +130,7 @@ twitter_mask = imread('./twitter_mask.png', flatten=True)
 
 
 wordcloud = WordCloud(
-                      font_path='/Users/angli/ANG/OneDrive/Documents/Pitt_PhD/Class/Fall2016/SocialComputing/FinalProject/all_net/cabin-sketch-v1.02/CabinSketch-Bold.ttf',
+                      font_path='~/cabin-sketch-v1.02/CabinSketch-Bold.ttf',
                       background_color='white',
                       width=1800,
                       height=1400,
