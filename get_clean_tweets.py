@@ -8,16 +8,9 @@ import re
 import json
 import os
 import pandas as pd
-os.chdir("/Users/angli/ANG/OneDrive/Documents/Pitt_PhD/Class/Fall2016/SocialComputing/FinalProject")
-os.chdir("/Users/ANG/OneDrive/Documents/Pitt_PhD/Class/Fall2016/SocialComputing/FinalProject")
-
 
 f = open("Trump_friends100tweets.txt","r")
-f = open("Trump_friends86_tweets.txt","r")
-
-
 f_tweet = open("Trump_friends100_cleantweets.txt", "w")
-f_tweet = open("Trump_friends86_cleantweets.txt", "w")
 
 f_tweet.write('user'+'\t\t'+"user_ID"+"\t\t" + "user_name" +"\t\t"+ "user_screenname" +"\t\t" + "user_location"+"\t\t"+"user_timezone"+"\t\t"
         +"user_description"+"\t\t"+"tweettime"+"\t\t"+"tweettext"+"\t\t"+"retweet_id"+"\t\t"+"retweet_screename"+"\t\t"
@@ -83,18 +76,11 @@ f.close()
 #write out
 
 friends100_tweet = pd.read_csv("Trump_friends100_cleantweets.txt", sep="\t\t",engine='python')
-friends86_tweet = pd.read_csv("Trump_friends86_cleantweets.txt", sep="\t\t",engine='python')
-
 friends100_tweet.to_csv("Trump_friends100_cleantweets_v2.csv", index=False)
-friends86_tweet.to_csv("Trump_friends186_cleantweets_v2.csv", index=False)
 
 #=========================
 #========================
 #concat tweets together
-
-os.chdir("/Users/angli/ANG/OneDrive/Documents/Pitt_PhD/Class/Fall2016/SocialComputing/FinalProject/all_net")
-os.chdir("/Users/ANG/OneDrive/Documents/Pitt_PhD/Class/Fall2016/SocialComputing/FinalProject/all_net")
-
 
 hillary_friends100_tweet = pd.read_csv("hillary_100friends_tweets_v2.csv", encoding = "ISO-8859-1")
 hillary_friends88_tweet = pd.read_csv("hillary_88friends_tweets_v2.csv", encoding = "ISO-8859-1")
