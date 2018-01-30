@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Wed Oct 26 09:36:59 2016
-this for data collection
+this for data collection of friends and original tweets
 @author: angli
 """
 
