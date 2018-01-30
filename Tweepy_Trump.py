@@ -7,14 +7,13 @@ Created on Wed Oct 26 09:36:59 2016
 import tweepy
 import json
 import os
-os.chdir("/Users/angli/ANG/OneDrive/Documents/Pitt_PhD/Class/Fall2016/SocialComputing/FinalProject")
-os.chdir("/Users/ANG/OneDrive/Documents/Pitt_PhD/Class/Fall2016/SocialComputing/FinalProject")
+
 
 # Variables that contains the user credentials to access Twitter API
-CONSUMER_KEY    = 'KWmEZpq2AlLibcz6l8REHn3Qv'
-CONSUMER_SECRET = 'NMwZAtAUGVnxzTZ0Oj7GH7efRQrMc2aQsRYNkLj6zVbSS33PyB'
-ACCESS_TOKEN    = '610226758-BDElYCTMnHjKyMNHPftBHZVDMBQcWytVeAl41QTo'
-ACCESS_TOKEN_SECRET = 'tTmcjSz1ElwEx3ks88U9cZboamW3V18Q33A8TzGqyvOEj'
+CONSUMER_KEY    = 
+CONSUMER_SECRET = 
+ACCESS_TOKEN    = 
+ACCESS_TOKEN_SECRET = 
 
 auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 auth.set_access_token(ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
