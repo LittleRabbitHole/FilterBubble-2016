@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Tue Nov 22 11:07:30 2016
-
+from original tweets to get clean tweets and save as csv
 @author: Ang
 """
 import re
