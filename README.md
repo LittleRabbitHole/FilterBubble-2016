@@ -3,4 +3,4 @@
 Is Social Media Helping People Making Informed Decision? -- Analyzing of 2016 election Twitter data
 
 This project aims to understand the Filer Bubble effect in Social Media.
-Final posters can be found under this repository.
+Final poster can be found under this repository.
